@@ -1,1 +1,61 @@
-myenv/
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# -----------------------------
+# Virtual Environment
+# -----------------------------
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# -----------------------------
+# Data and Models
+# -----------------------------
+data/
+models/*.pkl
+models/*.sav
+models/*.h5
+
+# -----------------------------
+# Logs and Outputs
+# -----------------------------
+*.log
+*.out
+*.tmp
+
+# -----------------------------
+# IDE / Editor Specific
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Jupyter / Notebooks (if any)
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Other project-specific
+# -----------------------------
+# Ignore temporary files
+*.bak
+*.old
+*.tmp
